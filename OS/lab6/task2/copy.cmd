@@ -1,0 +1,1 @@
+xcopy /Z C:\Users\arsenal\Desktop\LAB6\task2\copy_file.txt \\%computername%\temp\copy_file.txt

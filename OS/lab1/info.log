@@ -1,0 +1,352 @@
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.0305] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.0306] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.0395] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.5903] manager[0x5612c64c5040]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.5909] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.9470] hostname: hostname: using hostnamed
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.9471] hostname: hostname changed from (none) to "maria-VirtualBox"
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.9475] dns-mgr[0x5612c64ad290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.9491] manager[0x5612c64c5040]: rfkill: Wi-Fi hardware radio set enabled
+Sep 21 23:32:08 maria-VirtualBox NetworkManager[461]: <info>  [1600713128.9502] manager[0x5612c64c5040]: rfkill: WWAN hardware radio set enabled
+Sep 21 23:32:09 maria-VirtualBox NetworkManager[461]: <info>  [1600713129.5149] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 21 23:32:09 maria-VirtualBox NetworkManager[461]: <info>  [1600713129.6846] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 21 23:32:09 maria-VirtualBox NetworkManager[461]: <info>  [1600713129.8383] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 21 23:32:09 maria-VirtualBox ModemManager[544]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2146] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2581] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2596] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2611] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2625] manager: Networking is enabled by state file
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2637] dhcp-init: Using DHCP client 'internal'
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2698] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2701] settings: Loaded settings plugin: keyfile (internal)
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.2703] ifupdown: management mode: unmanaged
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.4088] device (lo): carrier: link connected
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.4094] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.4159] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.8750] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 21 23:32:10 maria-VirtualBox NetworkManager[461]: <info>  [1600713130.9301] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.3836] device (enp0s3): carrier: link connected
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.3914] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.3977] policy: auto-activating connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4002] device (enp0s3): Activation: starting connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4011] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4047] manager: NetworkManager state is now CONNECTING
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4081] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4146] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4186] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4323] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4325] dhcp4 (enp0s3): option domain_name_servers  => '192.168.0.1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4327] dhcp4 (enp0s3): option expiry               => '1600799531'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4328] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4330] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4332] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4333] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4335] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4337] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4338] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4340] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4341] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4342] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4345] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4346] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4347] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4349] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4350] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4353] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4355] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4356] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4358] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4359] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4360] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4362] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.4422] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.5876] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.5900] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.5949] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.6066] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.6085] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.6154] device (enp0s3): Activation: successful, device activated.
+Sep 21 23:32:11 maria-VirtualBox NetworkManager[461]: <info>  [1600713131.6240] manager: startup complete
+Sep 21 23:32:13 maria-VirtualBox NetworkManager[461]: <info>  [1600713133.2946] modem-manager: ModemManager not available
+Sep 21 23:32:13 maria-VirtualBox NetworkManager[461]: <info>  [1600713133.3434] modem-manager: ModemManager now available
+Sep 21 23:32:14 maria-VirtualBox NetworkManager[461]: <info>  [1600713134.2320] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 23:32:15 maria-VirtualBox ModemManager[544]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 21 23:32:44 maria-VirtualBox ModemManager[544]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 21 23:33:46 maria-VirtualBox ModemManager[544]: <info>  Caught signal, shutting down...
+Sep 21 23:33:46 maria-VirtualBox NetworkManager[461]: <info>  [1600713226.8102] modem-manager: ModemManager no longer available
+Sep 21 23:33:46 maria-VirtualBox ModemManager[544]: <info>  ModemManager is shut down
+Sep 21 23:35:39 maria-VirtualBox ModemManager[586]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 21 23:35:39 maria-VirtualBox NetworkManager[487]: <info>  [1600713339.1955] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 21 23:35:39 maria-VirtualBox NetworkManager[487]: <info>  [1600713339.2042] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 21 23:35:39 maria-VirtualBox NetworkManager[487]: <info>  [1600713339.2162] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 21 23:35:39 maria-VirtualBox NetworkManager[487]: <info>  [1600713339.7041] manager[0x559eb3f1a010]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 21 23:35:39 maria-VirtualBox NetworkManager[487]: <info>  [1600713339.7041] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.1414] hostname: hostname: using hostnamed
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.1414] hostname: hostname changed from (none) to "maria-VirtualBox"
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.1418] dns-mgr[0x559eb3eff290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.1479] manager[0x559eb3f1a010]: rfkill: Wi-Fi hardware radio set enabled
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.1479] manager[0x559eb3f1a010]: rfkill: WWAN hardware radio set enabled
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.8683] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 21 23:35:40 maria-VirtualBox NetworkManager[487]: <info>  [1600713340.9304] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.0813] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.3949] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.4400] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.4422] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.4432] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.4440] manager: Networking is enabled by state file
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.4449] dhcp-init: Using DHCP client 'internal'
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.5398] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.5401] settings: Loaded settings plugin: keyfile (internal)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.5402] ifupdown: management mode: unmanaged
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.7109] device (lo): carrier: link connected
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.7117] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 21 23:35:41 maria-VirtualBox NetworkManager[487]: <info>  [1600713341.7158] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.1252] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.1580] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3002] device (enp0s3): carrier: link connected
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3071] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3162] modem-manager: ModemManager available
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3177] policy: auto-activating connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3203] device (enp0s3): Activation: starting connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3212] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3247] manager: NetworkManager state is now CONNECTING
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3284] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3317] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.3337] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5867] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5868] dhcp4 (enp0s3): option domain_name_servers  => '192.168.0.1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5868] dhcp4 (enp0s3): option expiry               => '1600799742'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5868] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5868] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5869] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5869] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5869] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5877] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5878] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5879] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5880] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5880] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.5908] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6711] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6717] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6727] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6754] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6757] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6779] device (enp0s3): Activation: successful, device activated.
+Sep 21 23:35:42 maria-VirtualBox NetworkManager[487]: <info>  [1600713342.6798] manager: startup complete
+Sep 21 23:35:44 maria-VirtualBox NetworkManager[487]: <info>  [1600713344.1078] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 23:35:44 maria-VirtualBox ModemManager[586]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 21 23:36:54 maria-VirtualBox NetworkManager[487]: <info>  [1600713414.4126] agent-manager: agent[276635b50d12bb23,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 23:42:49 maria-VirtualBox ModemManager[586]: <info>  Caught signal, shutting down...
+Sep 21 23:42:49 maria-VirtualBox ModemManager[586]: <info>  ModemManager is shut down
+Sep 21 23:42:49 maria-VirtualBox NetworkManager[487]: <info>  [1600713769.0324] modem-manager: ModemManager no longer available
+Sep 22 10:08:13 maria-VirtualBox ModemManager[599]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 22 10:08:13 maria-VirtualBox NetworkManager[500]: <info>  [1600751293.9378] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 22 10:08:13 maria-VirtualBox NetworkManager[500]: <info>  [1600751293.9388] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 22 10:08:14 maria-VirtualBox NetworkManager[500]: <info>  [1600751294.0048] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.0462] manager[0x557b4a491030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.0464] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.9497] hostname: hostname: using hostnamed
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.9498] hostname: hostname changed from (none) to "maria-VirtualBox"
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.9511] dns-mgr[0x557b4a479290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.9558] manager[0x557b4a491030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 22 10:08:15 maria-VirtualBox NetworkManager[500]: <info>  [1600751295.9559] manager[0x557b4a491030]: rfkill: WWAN hardware radio set enabled
+Sep 22 10:08:16 maria-VirtualBox NetworkManager[500]: <info>  [1600751296.7913] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.0279] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.4164] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.6263] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7044] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7074] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7078] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7081] manager: Networking is enabled by state file
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7086] dhcp-init: Using DHCP client 'internal'
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7495] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7497] settings: Loaded settings plugin: keyfile (internal)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.7497] ifupdown: management mode: unmanaged
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.8772] device (lo): carrier: link connected
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.8801] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 22 10:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600751297.8987] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.1288] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.2082] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4019] device (enp0s3): carrier: link connected
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4151] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4301] policy: auto-activating connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4319] device (enp0s3): Activation: starting connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4346] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4351] manager: NetworkManager state is now CONNECTING
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4356] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4371] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.4413] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.5371] modem-manager: ModemManager available
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7050] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7051] dhcp4 (enp0s3): option domain_name_servers  => '192.168.0.1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7052] dhcp4 (enp0s3): option expiry               => '1600837698'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7052] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7053] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7055] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7056] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7056] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7056] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7057] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7057] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7058] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7058] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7058] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7059] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7059] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7061] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7062] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7062] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7062] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7063] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7064] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7064] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7065] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7065] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7129] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7909] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.7931] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.8047] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.8515] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.8553] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.8672] device (enp0s3): Activation: successful, device activated.
+Sep 22 10:08:18 maria-VirtualBox NetworkManager[500]: <info>  [1600751298.8693] manager: startup complete
+Sep 22 10:08:20 maria-VirtualBox NetworkManager[500]: <info>  [1600751300.4432] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 10:08:20 maria-VirtualBox ModemManager[599]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 22 10:09:54 maria-VirtualBox NetworkManager[500]: <info>  [1600751394.2432] agent-manager: agent[0b8360986cec8d75,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 10:58:41 maria-VirtualBox NetworkManager[500]: <info>  [1600754321.5994] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 10:58:46 maria-VirtualBox NetworkManager[500]: <info>  [1600754326.0125] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 11:17:31 maria-VirtualBox NetworkManager[500]: <info>  [1600755451.8769] agent-manager: agent[0bd3d4b472a1aac2,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 13:00:04 maria-VirtualBox NetworkManager[500]: <info>  [1600761604.4378] agent-manager: agent[3d5ffc1c21436d1b,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 13:34:04 maria-VirtualBox NetworkManager[500]: <info>  [1600763644.0933] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 13:34:06 maria-VirtualBox NetworkManager[500]: <info>  [1600763646.3469] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 13:39:26 maria-VirtualBox NetworkManager[500]: <info>  [1600763966.0004] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 13:39:26 maria-VirtualBox NetworkManager[500]: <info>  [1600763966.4952] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 13:59:46 maria-VirtualBox NetworkManager[500]: <info>  [1600765186.0021] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 13:59:46 maria-VirtualBox NetworkManager[500]: <info>  [1600765186.4476] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 14:50:06 maria-VirtualBox NetworkManager[500]: <info>  [1600768206.0008] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 14:50:07 maria-VirtualBox NetworkManager[500]: <info>  [1600768207.4486] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 14:50:27 maria-VirtualBox NetworkManager[500]: <info>  [1600768227.0018] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 14:50:28 maria-VirtualBox NetworkManager[500]: <info>  [1600768228.4529] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 15:20:48 maria-VirtualBox NetworkManager[500]: <info>  [1600770048.0005] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 15:20:49 maria-VirtualBox NetworkManager[500]: <info>  [1600770049.9619] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 15:55:04 maria-VirtualBox NetworkManager[500]: <info>  [1600772104.7692] agent-manager: agent[da8bad9771f7d97b,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 16:01:09 maria-VirtualBox NetworkManager[500]: <info>  [1600772469.0034] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 16:01:10 maria-VirtualBox NetworkManager[500]: <info>  [1600772470.4888] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 16:12:35 maria-VirtualBox NetworkManager[500]: <info>  [1600773155.6756] agent-manager: agent[85e24c1149713e3d,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 17:36:30 maria-VirtualBox NetworkManager[500]: <info>  [1600778190.0897] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 17:36:31 maria-VirtualBox NetworkManager[500]: <info>  [1600778191.2250] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 17:59:41 maria-VirtualBox NetworkManager[500]: <info>  [1600779581.9522] agent-manager: agent[bac0b5a876c8c549,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 18:36:51 maria-VirtualBox NetworkManager[500]: <info>  [1600781811.1055] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 18:36:53 maria-VirtualBox NetworkManager[500]: <info>  [1600781813.1654] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 19:07:12 maria-VirtualBox NetworkManager[500]: <info>  [1600783632.0005] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 19:07:21 maria-VirtualBox NetworkManager[500]: <info>  [1600783641.5280] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 19:07:35 maria-VirtualBox NetworkManager[500]: <info>  [1600783655.0029] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 19:07:35 maria-VirtualBox NetworkManager[500]: <info>  [1600783655.4828] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 19:08:17 maria-VirtualBox NetworkManager[500]: <info>  [1600783697.0840] agent-manager: agent[da8bad9771f7d97b,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 21:54:12 maria-VirtualBox NetworkManager[500]: <info>  [1600790584.6100] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 21:54:18 maria-VirtualBox NetworkManager[500]: <info>  [1600790920.1530] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 21:54:18 maria-VirtualBox NetworkManager[500]: <info>  [1600791303.5596] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 21:54:19 maria-VirtualBox NetworkManager[500]: <info>  [1600793328.6323] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 21:54:20 maria-VirtualBox NetworkManager[500]: <info>  [1600793630.7734] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 21:54:20 maria-VirtualBox NetworkManager[500]: <info>  [1600793654.3504] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 21:59:29 maria-VirtualBox NetworkManager[500]: <info>  [1600793969.9170] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 21:59:31 maria-VirtualBox NetworkManager[500]: <info>  [1600793971.3587] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 22:04:50 maria-VirtualBox NetworkManager[500]: <info>  [1600794290.9203] manager: NetworkManager state is now CONNECTED_SITE
+Sep 22 22:04:53 maria-VirtualBox NetworkManager[500]: <info>  [1600794293.3642] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 22 22:08:14 maria-VirtualBox NetworkManager[500]: <info>  [1600794494.8180] agent-manager: agent[74bad00a63c8b5a6,:1.82/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 22 22:10:46 maria-VirtualBox NetworkManager[500]: <info>  [1600794646.7918] agent-manager: agent[74bad00a63c8b5a6,:1.274/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 23 12:31:42 maria-VirtualBox NetworkManager[502]: <info>  [1600846302.3209] NetworkManager (version 1.22.10) is starting... (for the first time)
+Sep 23 12:31:42 maria-VirtualBox NetworkManager[502]: <info>  [1600846302.3210] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+Sep 23 12:31:42 maria-VirtualBox NetworkManager[502]: <info>  [1600846302.3839] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 23 12:31:43 maria-VirtualBox NetworkManager[502]: <info>  [1600846303.1621] manager[0x5558c64a2030]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 23 12:31:43 maria-VirtualBox NetworkManager[502]: <info>  [1600846303.1622] monitoring ifupdown state file '/run/network/ifstate'.
+Sep 23 12:31:44 maria-VirtualBox ModemManager[611]: <info>  ModemManager (version 1.12.8) starting in system bus...
+Sep 23 12:31:44 maria-VirtualBox NetworkManager[502]: <info>  [1600846304.6508] hostname: hostname: using hostnamed
+Sep 23 12:31:44 maria-VirtualBox NetworkManager[502]: <info>  [1600846304.6508] hostname: hostname changed from (none) to "maria-VirtualBox"
+Sep 23 12:31:44 maria-VirtualBox NetworkManager[502]: <info>  [1600846304.6512] dns-mgr[0x5558c648a290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+Sep 23 12:31:44 maria-VirtualBox NetworkManager[502]: <info>  [1600846304.6516] manager[0x5558c64a2030]: rfkill: Wi-Fi hardware radio set enabled
+Sep 23 12:31:44 maria-VirtualBox NetworkManager[502]: <info>  [1600846304.6516] manager[0x5558c64a2030]: rfkill: WWAN hardware radio set enabled
+Sep 23 12:31:45 maria-VirtualBox NetworkManager[502]: <info>  [1600846305.5722] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+Sep 23 12:31:45 maria-VirtualBox NetworkManager[502]: <info>  [1600846305.6008] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.3220] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.6311] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.7955] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.7959] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.7961] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.7962] manager: Networking is enabled by state file
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.7964] dhcp-init: Using DHCP client 'internal'
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.9373] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.9375] settings: Loaded settings plugin: keyfile (internal)
+Sep 23 12:31:46 maria-VirtualBox NetworkManager[502]: <info>  [1600846306.9375] ifupdown: management mode: unmanaged
+Sep 23 12:31:47 maria-VirtualBox NetworkManager[502]: <info>  [1600846307.4594] device (lo): carrier: link connected
+Sep 23 12:31:47 maria-VirtualBox NetworkManager[502]: <info>  [1600846307.4613] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 23 12:31:47 maria-VirtualBox NetworkManager[502]: <info>  [1600846307.4637] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 23 12:31:47 maria-VirtualBox NetworkManager[502]: <info>  [1600846307.8602] settings: (enp0s3): created default wired connection 'Wired connection 1'
+Sep 23 12:31:47 maria-VirtualBox NetworkManager[502]: <info>  [1600846307.9630] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2840] device (enp0s3): carrier: link connected
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2891] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2954] policy: auto-activating connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2966] device (enp0s3): Activation: starting connection 'Wired connection 1' (ffa58ca2-32c8-3c6c-a638-c8d178f3fb16)
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2970] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2977] manager: NetworkManager state is now CONNECTING
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2982] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.2999] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:48 maria-VirtualBox NetworkManager[502]: <info>  [1600846308.3015] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0021] dhcp4 (enp0s3): option dhcp_lease_time      => '86400'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0022] dhcp4 (enp0s3): option domain_name_servers  => '192.168.0.1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0022] dhcp4 (enp0s3): option expiry               => '1600932708'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0022] dhcp4 (enp0s3): option ip_address           => '10.0.2.15'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0022] dhcp4 (enp0s3): option next_server          => '10.0.2.4'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0022] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_domain_name => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_domain_search => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_host_name  => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0023] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0024] dhcp4 (enp0s3): option requested_nis_domain => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0024] dhcp4 (enp0s3): option requested_nis_servers => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0025] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0025] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0025] dhcp4 (enp0s3): option requested_root_path  => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0025] dhcp4 (enp0s3): option requested_routers    => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option requested_static_routes => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option requested_time_offset => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option requested_wpad       => '1'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option routers              => '10.0.2.2'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): option subnet_mask          => '255.255.255.0'
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0026] dhcp4 (enp0s3): state changed unknown -> bound
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.0157] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.1926] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.1947] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.1987] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.2089] manager: NetworkManager state is now CONNECTED_SITE
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.2108] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.2166] device (enp0s3): Activation: successful, device activated.
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.2231] manager: startup complete
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.6485] modem-manager: ModemManager not available
+Sep 23 12:31:49 maria-VirtualBox NetworkManager[502]: <info>  [1600846309.6980] modem-manager: ModemManager now available
+Sep 23 12:31:50 maria-VirtualBox NetworkManager[502]: <info>  [1600846310.0023] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 23 12:31:52 maria-VirtualBox ModemManager[611]: <info>  Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 23 12:34:07 maria-VirtualBox NetworkManager[502]: <info>  [1600846447.6671] agent-manager: agent[5fc9ce7d88fbd7ba,:1.85/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 23 13:02:11 maria-VirtualBox NetworkManager[502]: <info>  [1600848131.3735] manager: NetworkManager state is now CONNECTED_SITE
+Sep 23 13:02:12 maria-VirtualBox NetworkManager[502]: <info>  [1600848132.8635] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 23 13:02:32 maria-VirtualBox NetworkManager[502]: <info>  [1600848152.3725] manager: NetworkManager state is now CONNECTED_SITE
+Sep 23 13:02:35 maria-VirtualBox NetworkManager[502]: <info>  [1600848155.0191] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 23 13:02:53 maria-VirtualBox NetworkManager[502]: <info>  [1600848173.3731] manager: NetworkManager state is now CONNECTED_SITE
+Sep 23 13:02:54 maria-VirtualBox NetworkManager[502]: <info>  [1600848174.7913] manager: NetworkManager state is now CONNECTED_GLOBAL

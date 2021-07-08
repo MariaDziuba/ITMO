@@ -1,0 +1,9 @@
+chcp 1251
+sc queryex type=service state=all >> services.txt
+
+net stop dnscache
+timeout /t 5
+sc queryex type=service state=all >> services_new.txt
+
+fc C:\Users\arsenal\Desktop\LAB6\task3\services.txt C:\Users\arsenal\Desktop\LAB6\task3\services_new.txt > diff.txt
+net start dnscache

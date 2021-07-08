@@ -1,0 +1,164 @@
+Сравнение файлов C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\services.txt и C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\SERVICES_NEW.TXT
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\services.txt
+
+SERVICE_NAME: AppXSvc
+DISPLAY_NAME: Служба развертывания AppX (AppXSVC)
+        TYPE               : 30  WIN32  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\SERVICES_NEW.TXT
+
+Имя_службы: AppXSvc
+Выводимое_имя: Служба развертывания AppX (AppXSVC)
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 13280
+        Флаги              : 
+
+*****
+
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\services.txt
+
+SERVICE_NAME: wlidsvc
+DISPLAY_NAME: Помощник по входу в учетную запись Майкрософт
+        TYPE               : 30  WIN32  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\SERVICES_NEW.TXT
+
+Имя_службы: wlidsvc
+Выводимое_имя: Помощник по входу в учетную запись Майкрософт
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 844
+        Флаги              : 
+
+*****
+
+Не удается выполнить синхронизацию строк. Слишком много различий между файлами.
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\services.txt
+
+SERVICE_NAME: AJRouter
+DISPLAY_NAME: Служба маршрутизатора AllJoyn
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: ALG
+DISPLAY_NAME: Служба шлюза уровня приложения
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+Имя_службы: AppHostSvc
+Выводимое_имя: Служба поддержки узла приложений
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, PAUSABLE, ACCEPTS_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 3752
+        Флаги              : 
+
+SERVICE_NAME: AppIDSvc
+DISPLAY_NAME: Удостоверение приложения
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+Имя_службы: Appinfo
+Выводимое_имя: Сведения о приложении
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+        ID_процесса        : 4372
+        Флаги              : 
+
+SERVICE_NAME: AppReadiness
+DISPLAY_NAME: Готовность приложений
+        TYPE               : 30  WIN32  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: AppXSvc
+DISPLAY_NAME: Служба развертывания AppX (AppXSVC)
+        TYPE               : 30  WIN32  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+SERVICE_NAME: aspnet_state
+DISPLAY_NAME: ASP.NET State Service
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+        PID                : 0
+        FLAGS              : 
+
+Имя_службы: AudioEndpointBuilder
+Выводимое_имя: Средство построения конечных точек Windows Audio
+        Тип                : 30  WIN32  
+        Состояние          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        Код_выхода_Win32   : 0  (0x0)
+        Код_выхода_службы  : 0  (0x0)
+        Контрольная_точка  : 0x0
+        Ожидание           : 0x0
+***** C:\USERS\ARSENAL\DESKTOP\LAB6\TASK3\SERVICES_NEW.TXT
+*****
+

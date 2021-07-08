@@ -1,0 +1,44 @@
+firstsecond
+thirdfirstsecond
+thirdchcp 1251 
+
+systeminfo | find "Р’РµСЂСЃРёСЏ РћРЎ" >> system.txt 
+systeminfo | find "РїР°РјСЏС‚" >> system.txt 
+wmic computersystem get totalphysicalmemory >> system.txt 
+wmic os get freephysicalmemory >> system.txt
+wmic logicaldisk list brief >> system.txt 
+wmic list disk >> system.txt
+diskpart
+list disk >> system.txt
+wmic diskdrive get model, serialNumber, size, mediaType >> system.txt
+
+mkdir test
+set labdir=C:\Users\arsenal\Desktop\LAB6\task1
+xcopy %labdir% %labdir%\test
+copy 1.txt + 2.txt + 3.txt 4.txt  
+
+cd TEST
+dir /b > dir.txt
+for %i in (*) do if not "%i"=="dir.txt" del "%i"Версия ОС:                        10.0.19042 Н/Д построение 19042
+Полный объем физической памяти:   6 029 МБ
+Доступная физическая память:      699 МБ
+Виртуальная память: Макс. размер: 7 949 МБ
+Виртуальная память: Доступна:     1 162 МБ
+Виртуальная память: Используется: 6 787 МБ
+Total Physical Memory     
+6322098176                       
+Free Physical Memory     
+673124                               
+DeviceID  DriveType  FreeSpace     ProviderName  Size          VolumeName
+C:        3          544631185408                918860853248  Windows
+D:        3          1870323712                  15594418176   RECOVERY
+E:        5          0                           439554048     LJ_M1005
+F:        3          64324243456                 64423456768   Ќ®ўл© в®¬
+  Диск ###  Состояние      Размер   Свободно Дин  GPT
+  --------  -------------  -------  -------  ---  ---
+  Диск 0    В сети          931 Gбайт  7168 Kбайт
+
+MediaType              Model               SerialNumber  Size
+Fixed hard disk media  TOSHIBA MQ01ABD100  Y7PIT7GBT     1000202273280 
+     
+ 

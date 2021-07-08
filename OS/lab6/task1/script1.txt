@@ -1,0 +1,20 @@
+chcp 1251 
+
+systeminfo | find "Версия ОС" >> system.txt 
+systeminfo | find "памят" >> system.txt 
+wmic computersystem get totalphysicalmemory >> system.txt 
+wmic os get freephysicalmemory >> system.txt
+wmic logicaldisk list brief >> system.txt 
+wmic list disk >> system.txt
+diskpart
+list disk >> system.txt
+wmic diskdrive get model, serialNumber, size, mediaType >> system.txt
+
+mkdir test
+set labdir=C:\Users\arsenal\Desktop\LAB6\task1
+xcopy %labdir% %labdir%\test 
+cd test
+ 
+copy *.txt merged.txt 
+ 
+for %i in (*) do if not "%i"=="merged.txt" del "%i"

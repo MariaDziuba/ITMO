@@ -1,0 +1,190 @@
+Updating repository __repos/Dzyuba_Mariya
+From https://www.kgeorgiy.info/git-students/year2019//Dzyuba_Mariya/java-advanced
+   1614bc4..758b258  master     -> origin/master
+Updating 1614bc4..758b258
+Fast-forward
+ java-solutions/info/kgeorgiy/ja/dziuba/.DS_Store   |   Bin 8196 -> 8196 bytes
+ .../info/kgeorgiy/ja/dziuba/implementor/.DS_Store  |   Bin 0 -> 6148 bytes
+ .../ja/dziuba/implementor/Implementor.java         |   288 +-
+ .../implementor/ImplementorCodeGenerator.java      |   210 +
+ .../ja/dziuba/implementor/ImplementorUtils.java    |   108 -
+ .../ja/dziuba/implementor/_build/.DS_Store         |   Bin 0 -> 6148 bytes
+ .../ja/dziuba/implementor/_build/MANIFEST.MF       |     2 +
+ .../ja/dziuba/implementor/_build/_implementor.jar  |   Bin 0 -> 16200 bytes
+ .../ja/dziuba/implementor/_build/info/.DS_Store    |   Bin 0 -> 6148 bytes
+ .../implementor/_build/info/kgeorgiy/.DS_Store     |   Bin 0 -> 6148 bytes
+ .../ja/dziuba/implementor/Implementor.class        |   Bin 0 -> 8498 bytes
+ .../ja/dziuba/implementor/Implementor.java         |   316 +
+ ...ImplementorCodeGenerator$ArgNameGenerator.class |   Bin 0 -> 1189 bytes
+ .../implementor/ImplementorCodeGenerator.class     |   Bin 0 -> 5317 bytes
+ .../implementor/ImplementorCodeGenerator.java      |   210 +
+ .../_build/info/kgeorgiy/java/.DS_Store            |   Bin 0 -> 6148 bytes
+ .../_build/info/kgeorgiy/java/advanced/.DS_Store   |   Bin 0 -> 6148 bytes
+ .../java/advanced/implementor/Impler.class         |   Bin 0 -> 346 bytes
+ .../kgeorgiy/java/advanced/implementor/Impler.java |    24 +
+ .../advanced/implementor/ImplerException.class     |   Bin 0 -> 522 bytes
+ .../java/advanced/implementor/ImplerException.java |    23 +
+ .../java/advanced/implementor/JarImpler.class      |   Bin 0 -> 409 bytes
+ .../java/advanced/implementor/JarImpler.java       |    20 +
+ .../implementor/_javadoc/allclasses-index.html     |   197 +
+ .../ja/dziuba/implementor/_javadoc/allclasses.html |    34 +
+ .../implementor/_javadoc/allpackages-index.html    |   169 +
+ .../implementor/_javadoc/constant-values.html      |   180 +
+ .../implementor/_javadoc/deprecated-list.html      |   147 +
+ .../ja/dziuba/implementor/_javadoc/element-list    |     2 +
+ .../ja/dziuba/implementor/_javadoc/help-doc.html   |   273 +
+ .../ja/dziuba/implementor/_javadoc/index-all.html  |   355 +
+ .../ja/dziuba/implementor/_javadoc/index.html      |   162 +
+ .../ja/dziuba/implementor/Implementor.html         |   655 ++
+ .../ImplementorCodeGenerator.ArgNameGenerator.html |   373 +
+ .../implementor/ImplementorCodeGenerator.html      |   604 +
+ .../ja/dziuba/implementor/package-summary.html     |   179 +
+ .../ja/dziuba/implementor/package-tree.html        |   164 +
+ .../kgeorgiy/java/advanced/implementor/Impler.html |   280 +
+ .../java/advanced/implementor/ImplerException.html |   336 +
+ .../java/advanced/implementor/JarImpler.html       |   285 +
+ .../java/advanced/implementor/package-summary.html |   186 +
+ .../java/advanced/implementor/package-tree.html    |   180 +
+ .../_javadoc/jquery/external/jquery/jquery.js      | 10364 +++++++++++++++++
+ .../jquery/images/ui-bg_glass_55_fbf9ee_1x400.png  |   Bin 0 -> 335 bytes
+ .../jquery/images/ui-bg_glass_65_dadada_1x400.png  |   Bin 0 -> 262 bytes
+ .../jquery/images/ui-bg_glass_75_dadada_1x400.png  |   Bin 0 -> 262 bytes
+ .../jquery/images/ui-bg_glass_75_e6e6e6_1x400.png  |   Bin 0 -> 262 bytes
+ .../jquery/images/ui-bg_glass_95_fef1ec_1x400.png  |   Bin 0 -> 332 bytes
+ .../ui-bg_highlight-soft_75_cccccc_1x100.png       |   Bin 0 -> 280 bytes
+ .../jquery/images/ui-icons_222222_256x240.png      |   Bin 0 -> 6922 bytes
+ .../jquery/images/ui-icons_2e83ff_256x240.png      |   Bin 0 -> 4549 bytes
+ .../jquery/images/ui-icons_454545_256x240.png      |   Bin 0 -> 6992 bytes
+ .../jquery/images/ui-icons_888888_256x240.png      |   Bin 0 -> 6999 bytes
+ .../jquery/images/ui-icons_cd0a0a_256x240.png      |   Bin 0 -> 4549 bytes
+ .../implementor/_javadoc/jquery/jquery-3.3.1.js    | 10364 +++++++++++++++++
+ .../_javadoc/jquery/jquery-migrate-3.0.1.js        |   628 +
+ .../implementor/_javadoc/jquery/jquery-ui.css      |   582 +
+ .../implementor/_javadoc/jquery/jquery-ui.js       |  2659 +++++
+ .../implementor/_javadoc/jquery/jquery-ui.min.css  |     7 +
+ .../implementor/_javadoc/jquery/jquery-ui.min.js   |     6 +
+ .../_javadoc/jquery/jquery-ui.structure.css        |   156 +
+ .../_javadoc/jquery/jquery-ui.structure.min.css    |     5 +
+ .../jquery/jszip-utils/dist/jszip-utils-ie.js      |    56 +
+ .../jquery/jszip-utils/dist/jszip-utils-ie.min.js  |    10 +
+ .../jquery/jszip-utils/dist/jszip-utils.js         |   118 +
+ .../jquery/jszip-utils/dist/jszip-utils.min.js     |    10 +
+ .../_javadoc/jquery/jszip/dist/jszip.js            | 11623 +++++++++++++++++++
+ .../_javadoc/jquery/jszip/dist/jszip.min.js        |    15 +
+ .../implementor/_javadoc/member-search-index.js    |     1 +
+ .../implementor/_javadoc/member-search-index.zip   |   Bin 0 -> 774 bytes
+ .../implementor/_javadoc/overview-summary.html     |    23 +
+ .../dziuba/implementor/_javadoc/overview-tree.html |   184 +
+ .../implementor/_javadoc/package-search-index.js   |     1 +
+ .../implementor/_javadoc/package-search-index.zip  |   Bin 0 -> 265 bytes
+ .../implementor/_javadoc/resources/glass.png       |   Bin 0 -> 499 bytes
+ .../ja/dziuba/implementor/_javadoc/resources/x.png |   Bin 0 -> 394 bytes
+ .../ja/dziuba/implementor/_javadoc/script.js       |   139 +
+ .../ja/dziuba/implementor/_javadoc/search.js       |   326 +
+ .../implementor/_javadoc/serialized-form.html      |   162 +
+ .../ja/dziuba/implementor/_javadoc/stylesheet.css  |   906 ++
+ .../implementor/_javadoc/type-search-index.js      |     1 +
+ .../implementor/_javadoc/type-search-index.zip     |   Bin 0 -> 306 bytes
+ .../kgeorgiy/ja/dziuba/implementor/build_jar.sh    |    65 +
+ .../ja/dziuba/implementor/create_javadoc.sh        |    23 +
+ 84 files changed, 44269 insertions(+), 127 deletions(-)
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.java
+ delete mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/ImplementorUtils.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/MANIFEST.MF
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/_implementor.jar
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/ja/dziuba/implementor/Implementor.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/ja/dziuba/implementor/Implementor.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator$ArgNameGenerator.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/.DS_Store
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/Impler.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/Impler.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/ImplerException.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/ImplerException.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/JarImpler.class
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/JarImpler.java
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/allclasses-index.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/allclasses.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/allpackages-index.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/constant-values.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/deprecated-list.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/element-list
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/help-doc.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/index-all.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/index.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/ja/dziuba/implementor/Implementor.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.ArgNameGenerator.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/ja/dziuba/implementor/package-summary.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/ja/dziuba/implementor/package-tree.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/java/advanced/implementor/Impler.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/java/advanced/implementor/ImplerException.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/java/advanced/implementor/JarImpler.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/java/advanced/implementor/package-summary.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/info/kgeorgiy/java/advanced/implementor/package-tree.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/external/jquery/jquery.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_glass_65_dadada_1x400.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-icons_222222_256x240.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-icons_2e83ff_256x240.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-icons_454545_256x240.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-icons_888888_256x240.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/images/ui-icons_cd0a0a_256x240.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-3.3.1.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-migrate-3.0.1.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.css
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.min.css
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.min.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.structure.css
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jquery-ui.structure.min.css
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip-utils/dist/jszip-utils.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip-utils/dist/jszip-utils.min.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip/dist/jszip.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/jquery/jszip/dist/jszip.min.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/member-search-index.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/member-search-index.zip
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/overview-summary.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/overview-tree.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/package-search-index.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/package-search-index.zip
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/resources/glass.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/resources/x.png
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/script.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/search.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/serialized-form.html
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/stylesheet.css
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/type-search-index.js
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/_javadoc/type-search-index.zip
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/build_jar.sh
+ create mode 100644 java-solutions/info/kgeorgiy/ja/dziuba/implementor/create_javadoc.sh
+Compiling 14 files
+__current-repo/java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/Impler.java:1: error: package exists in another module: info.kgeorgiy.java.advanced.implementor
+package info.kgeorgiy.java.advanced.implementor;
+^
+__current-repo/java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/ImplerException.java:1: error: package exists in another module: info.kgeorgiy.java.advanced.implementor
+package info.kgeorgiy.java.advanced.implementor;
+^
+__current-repo/java-solutions/info/kgeorgiy/ja/dziuba/implementor/_build/info/kgeorgiy/java/advanced/implementor/JarImpler.java:1: error: package exists in another module: info.kgeorgiy.java.advanced.implementor
+package info.kgeorgiy.java.advanced.implementor;
+^
+__current-repo/java-solutions/info/kgeorgiy/ja/dziuba/implementor/Implementor.java:31: error: duplicate class: info.kgeorgiy.ja.dziuba.implementor.Implementor
+public class Implementor implements Impler, JarImpler {
+       ^
+__current-repo/java-solutions/info/kgeorgiy/ja/dziuba/implementor/ImplementorCodeGenerator.java:17: error: duplicate class: info.kgeorgiy.ja.dziuba.implementor.ImplementorCodeGenerator
+class ImplementorCodeGenerator {
+^
+5 errors
+ERROR: Compilation failed

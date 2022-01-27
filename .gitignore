@@ -2,3 +2,15 @@
 *.iml
 *.DS_Store
 *.swp
+C:C++/CMakeLists.txt
+C:C++/cmake-build-debug/*
+*.ipynb_checkpoints
+shift-enter/*
+DATA-ANALYSIS/lab1/SpotifyFeatures.csv
+DATA-ANALYSIS/lab1/out/*
+DATA-ANALYSIS/lab1/archive
+DATA-ANALYSIS/lab2/*
+DATA-ANALYSIS/lab4/nba2k20-full.csv
+DATA-ANALYSIS/lab6/SVHN/*
+DATA-ANALYSIS/lab6/runs/*
+DATA-ANALYSIS/lab7/archive/*
